@@ -8,6 +8,13 @@ function esVocal(letra) {
   // "n" ---> "Dato incorrecto"
   // "texto largo" ---> "Dato incorrecto"
   // Tu código:
-}
+  if ("aeiou".includes(letra)) {
+    return "Es vocal";
+  } else {
+    return "Dato incorrecto";
+  }
+  }
 
 module.exports = esVocal;
+
+

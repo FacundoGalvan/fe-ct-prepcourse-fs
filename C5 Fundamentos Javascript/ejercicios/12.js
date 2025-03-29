@@ -6,6 +6,15 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
+  console.log(str1, str2)
+  return str1.length === str2.length;
+
+// La comparación str1.length === str2.length ya devuelve true o false automáticamente.
+//No necesitamos if-else porque el resultado se puede retornar directamente.
+//El código es más corto, limpio y eficiente
 }
 
+console.log(tienenMismaLongitud("Mahito", "Itadori"))
+
 module.exports = tienenMismaLongitud;
+
